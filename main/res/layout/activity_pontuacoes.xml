@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Pontuacoes"
+    android:background="#D2000000">
+
+    <TextView
+        android:id="@+id/tfJog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:text="Jogador 1: "/>
+
+    <TextView
+        android:id="@+id/tfJog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:text="Jogador 2: "/>
+
+
+    <TextView
+        android:id="@+id/tfEmpates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="75dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:text="Empates:"/>
+    <Button
+        android:id="@+id/btnRetroceder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black"
+        android:text="Retroceder ao Jogo"/>
+
+</LinearLayout>

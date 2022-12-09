@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2000000"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="45dp"
+        android:text="A jogar: "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/TxtIndicador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/laranja"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="-11dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp">
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:backgroundTint="#94000000"
+                android:layout_marginRight="12dp"
+
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:backgroundTint="#94000000"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="12dp"
+                android:backgroundTint="#94000000"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="-11dp"
+            android:layout_marginRight="-10dp">
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="@color/cizento"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/cizento"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="12dp"
+                android:backgroundTint="@color/cizento"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="-9dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginRight="-10dp">
+
+            <Button
+                android:id="@+id/btn31"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="@color/cizento"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+            <Button
+                android:id="@+id/btn32"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/cizento"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+            <Button
+                android:id="@+id/btn33"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="12dp"
+                android:backgroundTint="@color/cizento"
+                android:textStyle="bold"
+                android:textSize="64dp"
+                android:textColor="#FF5722"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TxtIndicaVencedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/Verde"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnPontuacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black"
+        android:text="Consultar Pontuações"/>
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:backgroundTint="@color/black"/>
+
+
+</LinearLayout>
